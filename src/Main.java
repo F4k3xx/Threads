@@ -1,5 +1,3 @@
-import java.time.temporal.Temporal;
-
 public class Main {
 
     private static double pSemThreads;
@@ -59,10 +57,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println("==============================");
-        System.out.println("Sistema de Pedidos Sem Threads");
-        System.out.println("==============================");
-        chamarSistemaDePedidosSemThreads();
+        
 
         System.out.println();
         System.out.println();
