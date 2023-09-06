@@ -1,10 +1,10 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class SistemaDePedidos {
+public class SitemaDePedidoSemThreads {
     private List<Pedido> pedidos;
 
-    public SistemaDePedidos() {
+    public SitemaDePedidoSemThreads() {
         pedidos = new ArrayList<>();
     }
 
